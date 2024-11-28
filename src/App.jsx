@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <h1>Bienvenido a nuestro sitio</h1>
+      <h1>Bienvenido al sitio de aviso de privacidad</h1>
       {currentForm === 1 ? (
         <FormOne onSwitch={switchToFormTwo} />
       ) : (
