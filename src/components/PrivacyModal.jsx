@@ -5,14 +5,12 @@ const PrivacyModal = ({ version, onAccept }) => {
   const privacyTexts = {
     1: `
       Aviso de Privacidad (Versión 1)
-      De conformidad con el Artículo 3 de la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados (LGPDPPSO), 
-      este aviso informa sobre los principios de protección de datos personales: licitud, finalidad, proporcionalidad y consentimiento. 
-      Sus datos serán tratados conforme a estos principios.
+      De conformidad con el Artículo 4 de la LGPDPPSO, usted tiene derecho a conocer, rectificar, cancelar y oponerse al uso de sus datos personales (Derechos ARCO). 
+      Su información será tratada exclusivamente para los fines señalados en este formulario.
     `,
     2: `
       Aviso de Privacidad (Versión 2)
-      De acuerdo con el Artículo 16 de la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados (LGPDPPSO), 
-      este aviso detalla las obligaciones de proteger sus datos personales contra pérdida, alteración, destrucción o uso no autorizado.
+      De acuerdo con el Artículo 21 de la LGPDPPSO, se implementan medidas administrativas, físicas y técnicas para proteger sus datos personales contra acceso no autorizado, pérdida o alteración.
     `,
   };
 

@@ -1,61 +1,59 @@
-/* Formulario principal */
 .form-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Asegura que ocupa toda la pantalla */
-  margin: 0; /* Elimina cualquier margen adicional */
-  background-color: #f9f9f9;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffffff, #c9d6ff);
 }
 
-/* Formulario */
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
   width: 100%;
-  max-width: 400px; /* Ajusta el tamaño máximo del formulario */
+  align-items: center; /* Centra los elementos dentro del formulario */
 }
 
-/* Etiquetas */
 label {
+  font-weight: bold;
+  color: #555;
+  align-self: flex-start; /* Alinea las etiquetas al inicio del formulario */
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+}
+
+button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
   font-weight: bold;
 }
 
-/* Campos de entrada */
-input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-/* Botón enviar */
 button[type="submit"] {
-  background-color: #28a745;
+  background-color: #4caf50;
   color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
 }
 
 button[type="submit"]:hover {
-  background-color: #218838;
+  background-color: #45a049;
 }
 
-/* Botón para cambiar entre formularios */
 .switch-button {
-  margin-top: 10px;
-  background-color: #17a2b8;
+  background-color: #008cba;
   color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
 }
 
 .switch-button:hover {
-  background-color: #138496;
+  background-color: #007bb5;
 }
